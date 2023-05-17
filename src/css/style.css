@@ -3,7 +3,7 @@
 }
 
 .body-game{
-    padding: 59px 38px 132px 53px;  
+    padding: 59px 38px 132px 53px;
 }
 
 .app{
@@ -67,7 +67,7 @@
 
     border-radius: 3px;
     
-    border: 2px solid #7AA7C7;
+    border: 1px solid #7AA7C7;
 
     font-weight: 700;
     font-size: 16px;
@@ -152,7 +152,7 @@
     
         border-radius: 2px;
         
-        border: 2px solid #7AA7C7;
+        border: 1px solid #7AA7C7;
 
         text-align: center;
     
