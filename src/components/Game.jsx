@@ -12,7 +12,7 @@ import forca5 from '../assets/forca5.png'
 import forca6 from '../assets/forca6.png'
 
 export default function Game(props){
-    const {classGame} = props;
+    const {classGame, setClassStart, setClassGame} = props;
     const images = [forca0, forca1, forca2, forca3, forca4, forca5, forca6];
 
     const [word, setWord] = useState('');
@@ -62,6 +62,8 @@ export default function Game(props){
         setErrors={setErrors}
         gameOver={gameOver}
         setWord={setWord}
+        setClassStart={setClassStart}
+        setClassGame={setClassGame} 
       />
       <div className="Letras">
         <Letras

@@ -6,6 +6,57 @@
     padding: 59px 38px 132px 53px;
 }
 
+.Start{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+
+    text-align: center;
+}
+
+.buttonTheme{
+    width: 300px;
+    
+    margin-top: 20px;
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.chooseTheme{
+    width: 300px;
+    height: 60px;
+
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px dashed darkorange;
+
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.geral{
+    background: none;
+    color: black;
+}
+
+.nba{
+    background: none;
+    color: black;
+}
+
+.animais{
+    background: none;
+    color: black;
+}
+
 .app{
     padding: 59px 38px 132px 53px;
 }
@@ -40,7 +91,7 @@
     right: 53px;
 
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 68px;
 }
 
@@ -72,6 +123,27 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
+}
+
+.return{
+    width: 130px;
+    height: 30px;
+
+    color: #ffffff;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+
+    background-color: #FF0000;
+
+    border: none;
+
+    border-radius: 5px;
+
+    position: fixed;
+    margin-top: 120px;
+    right: 53px;
 }
 
 .able{
@@ -120,6 +192,8 @@
         line-height: 15px;
 
         right: 30px;
+
+        margin-top: 0;
     }
     
     .word{
@@ -128,6 +202,19 @@
 
         font-size: 30px;
         line-height: 68px;
+    }
+
+    .return{
+        width: 150px;
+        height: 25px;
+    
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        
+        position: fixed;
+        margin-top: 50px;
+        right: 30px;
     }
 
 }

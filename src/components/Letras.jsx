@@ -14,9 +14,9 @@ export default function Letras(props){
 
     function verifyLetter(i) {
         for (let j = 0; j < word.length; j++){
-            if(word[j] === alfabeto[i]){
-                newArr[j] = alfabeto[i]
-            }else if (!word.includes(alfabeto[i])){
+            if(word[j].toUpperCase() === alfabeto[i].toUpperCase()){
+                newArr[j] = alfabeto[i].toUpperCase();
+            }else if (!word.includes(alfabeto[i].toUpperCase())){
                 contErrors = errors + 1
                 setErrors(contErrors)
             }
@@ -35,6 +35,7 @@ export default function Letras(props){
             setClassUnderline('word red');
             setClicked(contandoPalavras)
             setGameOver(1)
+            alert('burro?')
         }
     }
    

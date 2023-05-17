@@ -2,7 +2,7 @@ import React from 'react';
 import palavras from '../palavras';
   
 export default function Jogo(props){
-    const {underlineWord, setUnderline, setUnderlineWord, palavraArray, setPalavraArray, setWord, gameOver, word, underline, classUnderline, setClassUnderline, image, setButtonDisabled, setClassButton, setClicked, random, setRandom, setErrors,} = props
+    const {underlineWord, setUnderline, setUnderlineWord, palavraArray, setPalavraArray, setWord, gameOver, word, underline, classUnderline, setClassUnderline, image, setButtonDisabled, setClassButton, setClicked, random, setRandom, setErrors, setClassStart, setClassGame} = props
 
     let palavraDireto;
     let wordDireto;
@@ -22,18 +22,35 @@ export default function Jogo(props){
         setRandom(random + 1);
 
         palavraDireto = palavras.sort(randomize);
-        setWord(palavraDireto[0])
-        wordDireto = (palavraDireto[0])
+        setWord(palavraDireto[0].toUpperCase())
+        wordDireto = (palavraDireto[0].toUpperCase())
         setPalavraArray(wordDireto.split(''))
         palavraArrayDireto = (wordDireto.split(''))
-        setUnderlineWord(palavraArrayDireto.map(() => '_ '));
-        underlineWordDireto = (palavraArrayDireto.map(() => '_ '))
+        setUnderlineWord(palavraArrayDireto.map(item =>{
+            if (item === ' ') {
+                return '- '
+              } else {
+                return '_ '
+              }
+        }));
+        underlineWordDireto = (palavraArrayDireto.map(item =>{
+            if (item === ' ') {
+                return '- '
+              } else {
+                return '_ '
+              }
+        }));
         setUnderline(underlineWordDireto);
 
         console.log(wordDireto);
             // if(gameOver === 1){
                 
             // }
+    }
+
+    function return1() {
+        setClassStart('Start');
+        setClassGame('none');
     }
 
     return(
@@ -46,6 +63,7 @@ export default function Jogo(props){
             Escolher Palavra
             </button>
             <p className={classUnderline} data-test="word">{underline}</p>
+            <button onClick={return1} className="return">Voltar aos temas</button>    
         </div>
     );
 }

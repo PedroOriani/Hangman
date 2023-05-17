@@ -4,8 +4,8 @@ import Start from './Start';
 
 function App() {
 
-  const [classStart, setClassStart] = useState ('none')
-  const [classGame, setClassGame] = useState ('App')
+  const [classStart, setClassStart] = useState ('Start')
+  const [classGame, setClassGame] = useState ('none')
 
   return (
     <div className='body-game'>
@@ -16,6 +16,8 @@ function App() {
     />
     <Game 
     classGame={classGame}
+    setClassStart={setClassStart}
+    setClassGame={setClassGame} 
     />
     </div>
     
