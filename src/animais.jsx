@@ -1,0 +1,30 @@
+const animais =[
+    "Abelha", "acaro", "agua viva", "aguia", "albatroz", "andorinha", "anemona", "anta", "antilope", 
+    "aranha", "arara", "atum", "avestruz", "azulao", "baiacu", "baleia", "barata", "bem te vi", "besouro", 
+    "bezerro", "bicho da seda", "bicho pau", "bigua", "bode", "boi", "borboleta", "boto", "bruxinha", "Bufalo", 
+    "burro", "cabra", "cacatua", "cachorro", "cagado", "calopsita", "camarao", "camaleao", "camelo", "canario", 
+    "canguru", "caracol", "caramujo", "caravela", "carcara", "carneiro", "carpa", "castor", "cavalo", 
+    "cavalo marinho", "chimpanze", "chinchila", "cigarra", "cisne", "centopeia", "cervo", "coala", "cobra", 
+    "codorna", "coelho", "coiote", "coleiro", "coral", "coruja", "coruja buraqueira", "cordeiro", "corvo", 
+    "cotia", "craca", "crocodilo", "cupim", "curio", "diabo da tasmania", "dinossauro", "dragao barbudo", 
+    "dragao de Komodo", "dragao do brejo", "dromedario", "elefante", "ema", "enguia", "equidna", "escorpiao", 
+    "esponja do mar", "esquilo", "estrela do mar", "faisao", "falcao", "ferrete", "flamingo", "foca", "formiga", 
+    "furao", "gaivota", "galinha", "galo", "gamba", "gato", "gavial", "gaviao", "golfinho", "gorila", "gralha", 
+    "grilo", "guaxinim", "hamster", "harpia", "hidra", "hiena", "homem", "hipopotamo", "iaque", "ibis", "iguana", 
+    "impala", "inseto", "jaburu", "jabuti", "jacare", "jacu", "jaguar", "jaguatirica", "jararaca", "javali", 
+    "jiboia", "joaninha", "joao de barro", "jumento", "lacraia", "lagarta", "lagartixa", "lagosta", "lagostim", 
+    "leao", "leoa", "lemure", "lesma", "lhama", "ligre", "linguado", "lobo", "lobo cinzento", "lobo guara", 
+    "lontra", "louva a deus", "lula", "macaco", "mamute", "marreco", "marimbondo", "mariposa", "marisco", 
+    "maritaca", "medusa", "morcego", "mosca", "mosquito", "mico", "minhoca", "mula", "naja", "namorado", "narval", 
+    "Nautilus", "onca", "orangotango", "ornitorrinco", "ostra", "ourico", "ovelha", "paca", "panda", "pantera", 
+    "papagaio", "papa mosca", "pardal", "passarinho", "pato", "pavao", "peixe", "peixe boi", "percevejo", 
+    "perereca", "periquito", "peru", "pica pau. Pintassilgo", "piton", "planaria", "polvo", "pombo", "ponei", 
+    "porco", "porco espinho", "porquinho da india", "quati", "quero quero", "quati mirim", "raia", "raposa", 
+    "ratazana", "rato", "rena", "rinoceronte", "rouxinol", "sabia", "sagui", "salmao", "sanguessuga", "sanhaco", 
+    "sapo", "sardinha", "serpente", "siri", "sucuri", "suricato", "tamandua", "tamandua bandeira", "tamandua mirim",
+    "tarantula", "tartaruga", "tatu", "tatui", "tenia", "tentilhao", "tigre", "tilapia", "touro", "traira", 
+    "tubarao", "tucano", "tuim", "tuiuiu", "urso branco", "urso pardo", "urso panda", "urso panda vermelho",
+    "urubu ", "vaca ", "vaga lume", "veado", "verme", "vespa", "zangao", "zebra", "zebu"
+]
+
+export default animais
