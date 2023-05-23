@@ -1,7 +1,8 @@
+import { useState } from 'react';
 import React from 'react';
   
 export default function Jogo(props){
-    const {tema, contandoPalavras, underlineWord, setUnderline, setUnderlineWord, palavraArray, setPalavraArray, setWord, gameOver, word, underline, classUnderline, setClassUnderline, image, setClassButton, setClicked, random, setRandom, setErrors, setClassStart, setClassGame} = props
+    const {classPerdeu, setClassPerdeu, tema, contandoPalavras, underlineWord, setUnderline, setUnderlineWord, palavraArray, setPalavraArray, setWord, gameOver, word, underline, classUnderline, setClassUnderline, image, setClassButton, setClicked, random, setRandom, setErrors, setClassStart, setClassGame} = props
 
     let palavraDireto;
     let wordDireto;
@@ -16,6 +17,7 @@ export default function Jogo(props){
         setClicked([]);
         setClassButton('able');
         setClassUnderline('word');
+        setClassPerdeu('none')
         setErrors(0)
 
         palavraDireto = tema.sort(randomize);
@@ -40,9 +42,6 @@ export default function Jogo(props){
         setUnderline(underlineWordDireto);
 
         console.log(wordDireto);
-            // if(gameOver === 1){
-                
-            // }
     }
 
     function return1() {
@@ -64,7 +63,10 @@ export default function Jogo(props){
             Escolher Palavra
             </button>
             <p className={classUnderline} data-test="word">{underline}</p>
-            <button onClick={return1} className="return">Voltar aos temas</button>    
+            <button onClick={return1} className="return">Voltar aos Temas</button>
+            <div
+            className={classPerdeu}
+            >Muito ruim Mlk KKKKKK</div> 
         </div>
     );
 }

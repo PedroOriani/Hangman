@@ -4,6 +4,7 @@ import Start from './Start';
 import palavras from '../palavras'
 import animais from '../animais'
 import nba from '../nba'
+import series from '../series'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
     palavras={palavras}
     animais={animais}
     nba={nba}
+    series={series}
     />
     <Game 
     classGame={classGame}

@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Letras(props){
-    const {setGameOver, underline, setUnderline, classButton, errors, setErrors, clicked, setClicked, word, setClassUnderline, contandoPalavras} = props;
+    const {setClassPerdeu, setGameOver, underline, setUnderline, classButton, errors, setErrors, clicked, setClicked, word, setClassUnderline, contandoPalavras} = props;
     const alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
     let contErrors;
@@ -33,9 +33,9 @@ export default function Letras(props){
         }else if(contErrors === 6){
             setUnderline(word)
             setClassUnderline('word red');
+            setClassPerdeu('frase-perdida')
             setClicked(contandoPalavras)
             setGameOver(1)
-            alert('burro?')
         }
     }
    

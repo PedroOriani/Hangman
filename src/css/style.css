@@ -1,5 +1,5 @@
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Righteous', cursive;
 }
 
 .body-game{
@@ -14,10 +14,15 @@
 
 .welcome{
     width: 100%;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
+    margin-top: 20px;
+
+    color: #39739D;
 
     text-align: center;
+    
+    font-family: 'Recursive', sans-serif;
 }
 
 .buttonTheme{
@@ -36,25 +41,15 @@
 
     margin-top: 20px;
     border-radius: 10px;
-    border: 1px dashed darkorange;
+    border: 1px dashed #7AA7C7;
+
+    background-color: #E1ECF4;
+    color: #39739D;
+
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
 
     font-size: 25px;
-    font-weight: 600;
-}
-
-.geral{
-    background: none;
-    color: black;
-}
-
-.nba{
-    background: none;
-    color: black;
-}
-
-.animais{
-    background: none;
-    color: black;
+    font-weight: 500;
 }
 
 .app{
@@ -72,6 +67,7 @@
 
     background-color: #27AE60;
     color: #ffffff;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
 
     font-weight: 700;
     font-size: 20px;
@@ -86,11 +82,13 @@
 }
 
 .word{
+    font-family: 'Recursive', sans-serif;
+
     position:fixed;
     top: 461px;
     right: 53px;
 
-    font-weight: 700;
+    font-weight: 500;
     font-size: 40px;
     line-height: 68px;
 }
@@ -119,23 +117,41 @@
     border-radius: 3px;
     
     border: 1px solid #7AA7C7;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
 
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
 }
 
+.frase-perdida{
+    width: auto;
+    height: auto;
+
+    font-family: 'Recursive', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 19px;
+
+    color: red;
+
+    position: fixed;
+    left: calc(50% - 160px);
+}
+
 .return{
-    width: 130px;
+    width: 150px;
     height: 30px;
 
     color: #ffffff;
 
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 19px;
 
     background-color: #FF0000;
+
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
 
     border: none;
 
@@ -176,7 +192,7 @@
     }
     
     .app{
-        padding: 30px 30px 132px 30px;
+        padding: 30px 0px 132px 0px;
     }
 
     .gallows{
@@ -185,10 +201,11 @@
     }
 
     .chooseWord{
-        width: 150px;
+        width: 110px;
         height: 40px;
 
         font-size: 15px;
+        font-weight: 300;
         line-height: 15px;
 
         right: 30px;
@@ -197,18 +214,18 @@
     }
     
     .word{
-        top: 150px;
-        right: 50px;
+        top: 250px;
+        right: 40px;
 
-        font-size: 30px;
-        line-height: 68px;
+        font-size: 15px;
+        line-height: 30px;
     }
 
     .return{
-        width: 150px;
+        width: 110px;
         height: 25px;
     
-        font-weight: 500;
+        font-weight: 100;
         font-size: 12px;
         line-height: 19px;
         
@@ -217,6 +234,10 @@
         right: 30px;
     }
 
+    .frase-perdida{
+        top: 220px;
+        left: calc(50% - 170px);
+    }
 }
 
 @media (max-width: 737px) {
@@ -225,7 +246,7 @@
         width: 100%;
         height: 102px;
     
-        margin-top: 70.33px;
+        margin-top: 100px;
     
         display: flex;
         flex-wrap: wrap;

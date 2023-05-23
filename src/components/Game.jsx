@@ -14,6 +14,8 @@ export default function Game(props){
     const {classGame, setClassStart, setClassGame, tema} = props;
     const images = [forca0, forca1, forca2, forca3, forca4, forca5, forca6];
 
+    const [classPerdeu, setClassPerdeu] = useState('none')
+
     const [word, setWord] = useState('');
   
     const [palavraArray, setPalavraArray] = useState(word.split(''))
@@ -57,6 +59,8 @@ export default function Game(props){
         setClassGame={setClassGame}
         contandoPalavras={contandoPalavras}
         tema={tema}
+        classPerdeu={classPerdeu}
+        setClassPerdeu={setClassPerdeu}
       />
       <div className="Letras">
         <Letras
@@ -71,6 +75,7 @@ export default function Game(props){
           setClassUnderline={setClassUnderline}
           contandoPalavras={contandoPalavras}
           setGameOver={setGameOver}
+          setClassPerdeu={setClassPerdeu}
         />
       </div>
     </div>
