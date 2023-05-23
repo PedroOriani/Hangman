@@ -5,6 +5,7 @@ import palavras from '../palavras'
 import animais from '../animais'
 import nba from '../nba'
 import series from '../series'
+import lol from '../lol'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
     animais={animais}
     nba={nba}
     series={series}
+    lol={lol}
     />
     <Game 
     classGame={classGame}

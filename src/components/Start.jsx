@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Start(props){
-    const {classStart, setClassStart, setClassGame, setTema, palavras, animais, nba, series} = props
+    const {classStart, setClassStart, setClassGame, setTema, palavras, animais, nba, series, lol} = props
 
     let temaSelecionado;
 
@@ -33,15 +33,23 @@ export default function Start(props){
         setTema(temaSelecionado);
     }
 
+    function gameLol() {
+        setClassStart('none');
+        setClassGame('App');
+        temaSelecionado = lol;
+        setTema(temaSelecionado);
+    }
+
     return(
         <div className={classStart}>
             <p className="welcome">Bem vindo ao melhor Jogo da Forca</p>
             <p className="welcome">Escolha um tema:</p>
             <div className="buttonTheme">
-                <button onClick={gameGeral} className="chooseTheme geral">Geral</button>
-                <button onClick={gameNBA} className="chooseTheme nba">NBA</button>
-                <button onClick={gameAnimais} className="chooseTheme animais">Animais</button>
-                <button onClick={gameSeries} className="chooseTheme animais">Series</button>
+                <button onClick={gameGeral} className="chooseTheme">Geral</button>
+                <button onClick={gameNBA} className="chooseTheme">NBA</button>
+                <button onClick={gameAnimais} className="chooseTheme">Animais</button>
+                <button onClick={gameSeries} className="chooseTheme">Series</button>
+                <button onClick={gameLol} className="chooseTheme">LOL</button>
             </div> 
         </div>
     );

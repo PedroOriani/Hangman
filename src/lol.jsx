@@ -1,0 +1,32 @@
+const lol = [
+    "Aatrox", "Ahri", "Akali", "Alistar", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe", "Aurelion Sol", 
+    "Azir", "Bard", "Blitzcrank", "Brand", "Braum", "Caitlyn", "Camille", "Cassiopeia", "Cho Gath", "Corki",
+    "Darius", "Diana", "Dr Mundo", "Draven", "Ekko", "Elise", "Evelynn", "Ezreal", "Fiddlesticks", "Fiora",
+    "Fizz", "Galio", "Gangplank", "Garen", "Gnar", "Gragas", "Graves", "Hecarim", "Heimerdinger", "Illaoi",
+    "Irelia", "Ivern", "Janna", "Jarvan", "Jax", "Jayce", "Jhin", "Jinx", "Kaisa", "Kalista", "Karma",
+    "Karthus", "Kassadin", "Katarina", "Kayle", "Kayn", "Kennen", "Kha Zix", "Kindred", "Kled", "Kog Maw",
+    "LeBlanc", "Lee Sin", "Leona", "Lillia", "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", "Malzahar", 
+    "Maokai", "Master Yi", "Miss Fortune", "Mordekaiser", "Morgana", "Mundo", "Nami", "Nasus", "Nautilus", 
+    "Neeko", "Nidalee", "Nocturne", "Nunu e Willump", "Olaf", "Orianna", "Ornn", "Pantheon", "Poppy", "Pyke", 
+    "Qiyana", "Quinn", "Rakan", "Rammus", "Rek Sai", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Samira", 
+    "Sejuani", "Senna", "Seraphine", "Sett", "Shaco", "Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", 
+    "Sona", "Soraka", "Swain", "Sylas", "Syndra", "Tahm Kench", "Taliyah", "Talon", "Taric", "Teemo", "Thresh", 
+    "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", 
+    "Vel Koz", "Vi", "Viego", "Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xayah", "Xerath", "Xin Zhao", 
+    "Yasuo", "Yone", "Yorick", "Yuumi", "Zac", "Zed", "Ziggs", "Zilean", "Zoe", "Zyra", "Adaga de Doran", 
+    "Arco Recurvo", "Bastao Amplificante", "Bota do Feiticeiro", "Bota da Velocidade", "Barao Nashor", 
+    "Botas da Mobilidade", "Botas de Mercurio", "Canhao Fumegante", "Capuz da Morte de Rabadon", "Cetro Abissal", 
+    "Cimitarra Mercurial", "Colhedor de Essencia", "Cutilada", "Dancarina Fantasma", "Dente de Nashor", 
+    "Eco de Luden", "Espada do Rei Destruido", "Espada do Rei Destruido Enferrujada", "Estilhaco de Gel", 
+    "Folha de Gelo", "Forca da Natureza", "Gume do Infinito", "Lamina da Furia de Guinsoo", "Lamina do Perseguidor", 
+    "Lamina do Roubo de Vida", "Lamina do Tempestade", "Lamina Enferrujada", "Lembranca de Lorde Dominik", 
+    "Luz Crescente", "Machado do Cacador", "Manopla de Gelo", "Mao da Justica", "Morellonomicon", "Patuá de Mikael", 
+    "Pistola Laminar Hextec", "Pocao Corrupta", "Pocao da Furia", "Pocao de Cura", "Pocao de Mana", 
+    "Pocao de Recuperacao", "Predador Sombrio", "Predicado", "Punhal de Statikk", "Raio Congelado", 
+    "Redencao", "Reliquia da Face do Protetor", "Sedenta por Sangue", "Selo de Gelo", "Sobrepujante", 
+    "Tormento de Liandry", "Trindade Forjada", "Visgo do Ladrao de Almas", "Veu de Banshee", 
+    "Veste de Cota de Malha", "Veu da Noiva", "Zhonya", "Arauto do Vale", "Dragao Infernal", "Dragao da Montanha",
+    "Dragao do Oceano", "Dragao do Vento", "Dragao Anciao", "Arauto do Vale", "Lobo Espiritual", "Gromp"    
+]
+
+export default lol

@@ -18,7 +18,7 @@ const animais =[
     "maritaca", "medusa", "morcego", "mosca", "mosquito", "mico", "minhoca", "mula", "naja", "namorado", "narval", 
     "Nautilus", "onca", "orangotango", "ornitorrinco", "ostra", "ourico", "ovelha", "paca", "panda", "pantera", 
     "papagaio", "papa mosca", "pardal", "passarinho", "pato", "pavao", "peixe", "peixe boi", "percevejo", 
-    "perereca", "periquito", "peru", "pica pau. Pintassilgo", "piton", "planaria", "polvo", "pombo", "ponei", 
+    "perereca", "periquito", "peru", "pica pau", "Pintassilgo", "piton", "planaria", "polvo", "pombo", "ponei", 
     "porco", "porco espinho", "porquinho da india", "quati", "quero quero", "quati mirim", "raia", "raposa", 
     "ratazana", "rato", "rena", "rinoceronte", "rouxinol", "sabia", "sagui", "salmao", "sanguessuga", "sanhaco", 
     "sapo", "sardinha", "serpente", "siri", "sucuri", "suricato", "tamandua", "tamandua bandeira", "tamandua mirim",
