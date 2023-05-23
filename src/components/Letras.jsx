@@ -7,6 +7,13 @@ export default function Letras(props){
     let contErrors;
     let newArr =[...underline];
 
+    const charactersA = ['Á', 'Ã', 'À', 'Â'];
+    const charactersE = ['É', 'Ê'];
+    const charactersI = ['Í'];
+    const charactersO = ['Ô', 'Õ', 'Ó'];
+    const charactersU = ['Ú'];
+    const charactersC = ['Ç'];
+
     function disableClicked(i){
         setClicked([...clicked, i]);
         verifyLetter(i);
@@ -14,8 +21,21 @@ export default function Letras(props){
 
     function verifyLetter(i) {
         for (let j = 0; j < word.length; j++){
-            if(word[j].toUpperCase() === alfabeto[i].toUpperCase()){
-                newArr[j] = alfabeto[i].toUpperCase();
+            if(alfabeto[i].toUpperCase() === 'A' && charactersA.includes(word[j].toUpperCase())){
+                newArr[j] = word[j].toUpperCase();
+            }else if(alfabeto[i].toUpperCase() === 'E' && charactersE.includes(word[j].toUpperCase())){
+                newArr[j] = word[j].toUpperCase();
+            }else 
+            if(alfabeto[i].toUpperCase() === 'I' && charactersI.includes(word[j].toUpperCase())){
+                newArr[j] = word[j].toUpperCase();
+            }else if(alfabeto[i].toUpperCase() === 'O' && charactersO.includes(word[j].toUpperCase())){
+                newArr[j] = word[j].toUpperCase();
+            }else if(alfabeto[i].toUpperCase() === 'U' && charactersU.includes(word[j].toUpperCase())){
+                newArr[j] = word[j].toUpperCase();
+            }else if(alfabeto[i].toUpperCase() === 'C' && charactersC.includes(word[j].toUpperCase())){
+                newArr[j] = word[j].toUpperCase();
+            }else if(word[j].toUpperCase() === alfabeto[i].toUpperCase()){
+                newArr[j] = word[j].toUpperCase();
             }else if (!word.includes(alfabeto[i].toUpperCase())){
                 contErrors = errors + 1
                 setErrors(contErrors)

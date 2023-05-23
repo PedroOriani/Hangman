@@ -14,19 +14,19 @@ const lol = [
     "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", 
     "Vel Koz", "Vi", "Viego", "Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xayah", "Xerath", "Xin Zhao", 
     "Yasuo", "Yone", "Yorick", "Yuumi", "Zac", "Zed", "Ziggs", "Zilean", "Zoe", "Zyra", "Adaga de Doran", 
-    "Arco Recurvo", "Bastao Amplificante", "Bota do Feiticeiro", "Bota da Velocidade", "Barao Nashor", 
-    "Botas da Mobilidade", "Botas de Mercurio", "Canhao Fumegante", "Capuz da Morte de Rabadon", "Cetro Abissal", 
-    "Cimitarra Mercurial", "Colhedor de Essencia", "Cutilada", "Dancarina Fantasma", "Dente de Nashor", 
-    "Eco de Luden", "Espada do Rei Destruido", "Espada do Rei Destruido Enferrujada", "Estilhaco de Gelo verdadeiro", 
-    "Folha de Gelo", "Forca da Natureza", "Gume do Infinito", "Lamina da Furia de Guinsoo", "Lamina do Perseguidor", 
-    "Lamina do Roubo de Vida", "Lamina do Tempestade", "Lamina Enferrujada", "Lembranca de Lorde Dominik", 
-    "Luz Crescente", "Machado do Cacador", "Manopla de Gelo", "Mao da Justica", "Morellonomicon", "Patuá de Mikael", 
-    "Pistola Laminar Hextec", "Pocao Corrupta", "Pocao da Furia", "Pocao de Cura", "Pocao de Mana", 
-    "Pocao de Recuperacao", "Predador Sombrio", "Predicado", "Punhal de Statikk", "Raio Congelado", 
-    "Redencao", "Reliquia da Face do Protetor", "Sedenta por Sangue", "Selo de Gelo", "Sobrepujante", 
-    "Tormento de Liandry", "Trindade Forjada", "Visgo do Ladrao de Almas", "Veu de Banshee", 
-    "Veste de Cota de Malha", "Veu da Noiva", "Zhonya", "Arauto do Vale", "Dragao Infernal", "Dragao da Montanha",
-    "Dragao do Oceano", "Dragao do Vento", "Dragao Anciao", "Arauto do Vale", "Lobo Espiritual", "Gromp"    
+    "Arco Recurvo", "Tomo Amplificador", "Bota do Feiticeiro", "Bota da Velocidade", "Barão Nashor", 
+    "Botas da Mobilidade", "Botas de Mercúrio", "Canhão Fumegante", "Capuz da Morte de Rabadon", "Cetro Abissal", 
+    "Cimitarra Mercurial", "Colhedor de Essencia", "Cutelo Negro", "Dançarina Fantasma", "Dente de Nashor", 
+    "Eco de Luden", "Espada do Rei Destruido", "Espada do Rei Destruido", "Estilhaço de Gelo verdadeiro", 
+    "Folha de Gelo", "Força da Natureza", "Gume do Infinito", "Lâmina da Fúria de Guinsoo", "Lâmina do Perseguidor", 
+    "Lâmina do Roubo de Vida", "Lâmina do Tempestade", "Lâmina Enferrujada","Luz Crescente", "Machado do Caçador", 
+    "Manopla de Gelo", "Mão da Justiça", "Morellonomicon", "Patuá de Mikael", 
+    "Pistola Laminar Hextec", "Poção Corrupta", "Poção da Fúria", "Poção de Cura", "Poção de Mana", 
+    "Poção de Recuperacão", "Predador Sombrio", "Faca de Statikk", "Raio Congelado", "Gromp", 
+    "Redenção", "Relíquia da Face do Protetor", "Sedenta por Sangue", "Selo de Gelo", "Sobrepujante", 
+    "Tormento de Liandry", "Trindade Forjada", "Ladrão de Almas de Mejai", "Véu de Banshee", 
+    "Veste de Cota de Malha", "Véu da Noiva", "Ampulheta de Zhonya", "Arauto do Vale", "Dragão Infernal", 
+    "Dragão da Montanha", "Dragão do Oceano", "Dragão do Vento", "Dragão Ancião", "Arauto do Vale", "Lobo Espiritual"    
 ]
 
 export default lol
