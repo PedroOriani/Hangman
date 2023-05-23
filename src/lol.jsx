@@ -17,7 +17,7 @@ const lol = [
     "Arco Recurvo", "Bastao Amplificante", "Bota do Feiticeiro", "Bota da Velocidade", "Barao Nashor", 
     "Botas da Mobilidade", "Botas de Mercurio", "Canhao Fumegante", "Capuz da Morte de Rabadon", "Cetro Abissal", 
     "Cimitarra Mercurial", "Colhedor de Essencia", "Cutilada", "Dancarina Fantasma", "Dente de Nashor", 
-    "Eco de Luden", "Espada do Rei Destruido", "Espada do Rei Destruido Enferrujada", "Estilhaco de Gel", 
+    "Eco de Luden", "Espada do Rei Destruido", "Espada do Rei Destruido Enferrujada", "Estilhaco de Gelo verdadeiro", 
     "Folha de Gelo", "Forca da Natureza", "Gume do Infinito", "Lamina da Furia de Guinsoo", "Lamina do Perseguidor", 
     "Lamina do Roubo de Vida", "Lamina do Tempestade", "Lamina Enferrujada", "Lembranca de Lorde Dominik", 
     "Luz Crescente", "Machado do Cacador", "Manopla de Gelo", "Mao da Justica", "Morellonomicon", "Patuá de Mikael", 
