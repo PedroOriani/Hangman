@@ -50,7 +50,8 @@ export default function Jogo(props){
         setClicked(contandoPalavras);
         setClassButton('able');
         setClassUnderline('none');
-        setErrors(0)
+        setClassPerdeu('none');
+        setErrors(0);
     }
 
     return(
