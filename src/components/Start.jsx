@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Start(props){
-    const {classStart, setClassStart, setClassGame, setTema, palavras, animais, nba, series, lol} = props
+    const {classStart, setClassStart, setClassGame, setTema, palavras, animais, nba, series, lol, cep} = props
 
     let temaSelecionado;
 
@@ -40,6 +40,13 @@ export default function Start(props){
         setTema(temaSelecionado);
     }
 
+    function gameCep() {
+        setClassStart('none');
+        setClassGame('App');
+        temaSelecionado = cep;
+        setTema(temaSelecionado);
+    }
+
     return(
         <div className={classStart}>
             <p className="welcome">Bem vindo ao melhor Jogo da Forca</p>
@@ -50,6 +57,7 @@ export default function Start(props){
                 <button onClick={gameAnimais} className="chooseTheme">Animais</button>
                 <button onClick={gameSeries} className="chooseTheme">Series</button>
                 <button onClick={gameLol} className="chooseTheme">LOL</button>
+                <button onClick={gameCep} className="chooseTheme">Países e Capitais</button>
             </div> 
         </div>
     );

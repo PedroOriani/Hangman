@@ -3,7 +3,7 @@
 }
 
 .body-game{
-    padding: 59px 38px 132px 53px;
+    padding: 30px 38px 132px 53px;
 }
 
 .Start{
@@ -57,8 +57,8 @@
 }
 
 .gallows{
-    width: 400px;
-    height: 466.67px;
+    width: 350px;
+    height: 420px;
 }
 
 .chooseWord{
@@ -85,7 +85,7 @@
     font-family: 'Recursive', sans-serif;
 
     position:fixed;
-    top: 461px;
+    top: 400px;
     right: 53px;
 
     font-weight: 500;
@@ -160,6 +160,38 @@
     position: fixed;
     margin-top: 120px;
     right: 53px;
+}
+
+.guessing{
+    width: 130px;
+    height: 40px;
+
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+
+    border: 1px solid #7AA7C7;
+    border-radius: 5px;
+
+    color: #798A9F;
+
+    position: fixed;
+    top: 650px;
+    left: calc(50% - 80px);
+}
+
+.guess{
+    width: 50px;
+    height: 44px;
+
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+
+    border: 1px solid #7AA7C7;
+    border-radius: 5px;
+
+    color: #39739D;
+
+    position: fixed;
+    top: 650px;
+    left: calc(60% - 70px);
 }
 
 .able{
@@ -237,6 +269,21 @@
     .frase-perdida{
         top: 220px;
         left: calc(50% - 170px);
+    }
+
+    .guessing{
+        height: 20px;
+
+        top: 500px;
+        left: calc(50% - 110px);
+    }
+
+    .guess{
+        width: 50px;
+        height: 22px;
+
+        top: 500px;
+        left: calc(60%);
     }
 }
 

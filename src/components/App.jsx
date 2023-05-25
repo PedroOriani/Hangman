@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import Game from "./Game";
 import Start from './Start';
-import palavras from '../palavras'
-import animais from '../animais'
-import nba from '../nba'
-import series from '../series'
-import lol from '../lol'
+import palavras from '../mocks/palavras'
+import animais from '../mocks/animais'
+import nba from '../mocks/nba'
+import series from '../mocks/series'
+import lol from '../mocks/lol'
+import cep from '../mocks/cep'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
     nba={nba}
     series={series}
     lol={lol}
+    cep={cep}
     />
     <Game 
     classGame={classGame}
